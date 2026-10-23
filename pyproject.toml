@@ -1,0 +1,11 @@
+[project]
+name = "llm-lp1-models"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.2",
+    "rust-just>=1.58.0",
+]
